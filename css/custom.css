@@ -1,25 +1,63 @@
+.section-title {
+    font-size: 5vw;
+    font-weight: 800;
+    display: grid;
+    flex-direction: column;
+    background-color: #bd0e0e;
+    /* background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; // Comment this to prevent Darkreader inverting title text */
+    width: max-content;
+    padding: 20px;
+    border-radius: 45px;
+    text-align: left;
+}
+
+
+
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 20px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+@media (min-width: 800px) {
+    .grid-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
 
 .card {
-    background-color: #f2f2f2;
-    padding: 20px;
-    border-radius: 5px;
+    width: 100%;
+    /* Adjust as needed */
+    height: 100%;
+    /* Adjust as needed */
+    box-sizing: border-box;
+    background-color: #0F1624;
+    padding: 10px;
+    border-radius: 15px;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .card-content {
+    color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin-top: 20px;
 }
 
-.fa-solid {
-    font-size: 48px;
+/* @media (max-width: 600px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+} */
+
+.fa- {
+    /* font-size: 48px; */
     margin-bottom: 10px;
     margin-top: 20px;
 }
@@ -31,4 +69,44 @@
 .card:hover {
     transform: scale(1.05);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.lemonsqueezy-button {
+    display: inline-block;
+    padding: 20px;
+    background-color: #2918c2;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.lemonsqueezy-button:hover {
+    background-color: #2918c2;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+:root {
+    --md-primary-fg-color: #0f1624;
+    --md-primary-fg-color--light: #0f1624;
+    --md-primary-fg-color--dark: #0f1624;
+}
+
+.aboutLeft {
+    flex: 1;
+    padding-right: 2rem;
+}
+
+.aboutRight {
+    flex: 1;
+    padding-left: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe {
+    width: 950%;
+    aspect-ratio: 16 / 9;
 }
