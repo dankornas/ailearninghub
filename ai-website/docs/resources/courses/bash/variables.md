@@ -10,13 +10,13 @@ hide:
 
 === "Learning Material"
 
-    <iframe
+    <!-- <iframe
         src="https://www.youtube.com/embed/2Gg6Seob5Mg"
         frameborder="0"
         allow="autoplay; encrypted-media"
         allowfullscreen
         >
-    </iframe>
+    </iframe> -->
 
     ## Introduction to Variables
 
