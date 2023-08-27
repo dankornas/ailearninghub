@@ -1,0 +1,10 @@
+title: Git & Github
+nav:
+  - index.md
+  - working-with-repos.md
+  - managing-files.md
+  - commit-history.md
+  - branching-and-merging.md
+  - git-workflow.md
+  - github.md
+  - collab-on-github.md

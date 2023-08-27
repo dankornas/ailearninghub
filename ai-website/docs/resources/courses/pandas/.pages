@@ -1,0 +1,8 @@
+title: Pandas
+nav:
+ - index.md
+ - series.md
+ - dataframes.md
+ - editing-data.md
+ - analyzing-data.md
+ - cleaning-data.md

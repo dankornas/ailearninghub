@@ -1,0 +1,19 @@
+title: Machine Learning
+nav:
+    - index.md
+    - intro.md
+    - supervised-learning.md
+    - linear-regression.md
+    - naive-bayes.md
+    - k-nearest-neighbor.md
+    - logistic-regression.md
+    - decision-trees.md
+    - unsupervised-learning.md
+    - apriori-algorithm.md
+    - k-means-clustering.md
+    - pca.md
+    - ensemble-learning.md
+    - stacking.md
+    - bagging.md
+    - boosting.md
+    - reinforcement-learning.md

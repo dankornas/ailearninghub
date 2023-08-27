@@ -1,0 +1,112 @@
+site_name: AI Learning Hub
+
+theme:
+  name: material
+  logo: code.png
+  favicon: code.png
+  palette:
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - scheme: default
+      primary: custom
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.footer
+    - navigation.sections
+    - navigation.indexes
+    - navigation.tracking
+    - content.code.annotate
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+
+  font:
+    text: Poppins
+    # text: Space Grotesk
+
+extra_css:
+  - https://use.fontawesome.com/releases/v6.0.0-beta2/css/all.css
+  - css/custom.css
+
+markdown_extensions:
+  - fontawesome_markdown
+  - attr_list
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+extra:
+
+  social:
+    - icon: fontawesome/brands/twitter 
+      link: https://twitter.com/dankornas
+    - icon: fontawesome/brands/youtube 
+      link: https://youtube.com/@dankornas
+    - icon: fontawesome/brands/instagram 
+      link: https://instagram.com/dankornas
+    - icon: fontawesome/brands/facebook 
+      link: https://facebook.com/dankornas
+    - icon: fontawesome/brands/linkedin 
+      link: https://www.linkedin.com/in/daniel-kornas/
+
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+    actions:
+      - accept
+      - manage
+
+plugins:
+  - search:
+      lang: en
+  - meta-descriptions
+  - awesome-pages
+  - social:
+      cards_layout_options:
+        background_color: "#0F1624"
+  - tags
+  - pagenav-generator
+
+copyright: Copyright &copy; 2023 Daniel Kornas
+# nav:
+#   - 'Home': 'index.md'
+  # - Blog: 
+  #   - Some: SUMMARY.md
+#     - Things: new2/new2.md
+#    - n:
+#        - index.md
+#       # - Lesson 2: python-course/lesson-2.md
+#       # - Lesson 3: python-course/lesson-3.md
+#       # - Lesson 4: python-course/lesson-4.md
+#       # - Lesson 5: python-course/lesson-5.md
+

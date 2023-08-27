@@ -1,0 +1,8 @@
+title: Numpy
+nav:
+    - index.md
+    - intro.md
+    - array-basics.md
+    - array-operations.md
+    - input-output-operations.md
+    - math-functions.md

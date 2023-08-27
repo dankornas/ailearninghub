@@ -1,0 +1,10 @@
+title: Python
+nav:
+    - index.md
+    - intro.md
+    - basics.md
+    - control-flow.md
+    - data-structures.md
+    - functions-iterables.md
+    - oop.md
+    - advanced-topics.md
