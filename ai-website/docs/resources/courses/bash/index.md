@@ -12,6 +12,7 @@ Welcome to our Bash Scripting Tutorials! This mini course is designed to introdu
 ## Course Overview
 
 <style>
+/* Existing Styles */
 .lesson-card {
     display: block;
     border: 1px solid #333;
@@ -31,6 +32,14 @@ Welcome to our Bash Scripting Tutorials! This mini course is designed to introdu
 .lesson-card h2, .lesson-card p {
     color: white;
 }
+
+/* New Media Query */
+@media screen and (max-width: 768px) {
+    .lesson-card {
+        width: 100%;
+    }
+}
+
 </style>
 
 <div style="display: flex; flex-wrap: wrap;">

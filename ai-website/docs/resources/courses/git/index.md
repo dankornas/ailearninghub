@@ -1,27 +1,90 @@
 ---
-title: Git & Github
 hide:
   - path
+  - toc
   - navigation
 ---
 
-## Introduction to Git: A Comprehensive Guide
+# Git and GitHub
 
-### Introduction
+Welcome to our Git and GitHub Course! This course is designed to provide you with the essential skills to effectively use Git and GitHub for version control and collaboration.
 
-At the dawn of software development, managing code changes was a challenge. Enter Git, a revolutionary tool that transformed the landscape of version control. In this tutorial, we'll embark on a journey to understand the essence of Git and its pivotal role in modern software development.
+## Course Overview
 
-### What is Git?
+<style>
+/* Existing Styles */
+.lesson-card {
+    display: block;
+    border: 1px solid #333;
+    padding: 20px;
+    margin: 5px;
+    width: calc(33% - 10px);
+    background-color: #0f1624;
+    color: white;
+    transition: transform .2s; 
+    text-decoration: none;
+}
 
-Git is a distributed version control system, designed to track changes in source code during software development. But what does that mean?
+.lesson-card:hover {
+    transform: scale(1.05);
+}
 
-* **Distributed Version Control System (DVCS):** Unlike centralized version control systems where there's a single central repository, in DVCS, every contributor has a local copy or "clone" of the main repository. This ensures that even if a central server fails, the repository's full history remains intact with every contributor.
-    
-* **Track Changes:** Imagine writing a book and with every change you make, you create a copy of the entire book. That's how Git treats your code. Every modification, every addition, or deletion is tracked. This means you can revert to any version of your codebase at any point in time.
-    
-* **Collaboration:** Git's architecture makes it incredibly easy for multiple developers to collaborate on a single project. Everyone can work on their features without disturbing the main code. Once they're done, they can merge their changes back to the main branch.
-    
+.lesson-card h2, .lesson-card p {
+    color: white;
+}
 
-**Example:** Consider two developers, Alice and Bob. Both are working on different features of the same application. Alice completes her feature and merges it with the main code. Bob, on the other hand, encounters a bug. With Git, Bob can pull the latest changes that Alice merged, and check if those changes are causing the bug, all without affecting Alice's work.
+/* New Media Query */
+@media screen and (max-width: 768px) {
+    .lesson-card {
+        width: 100%;
+    }
+}
+</style>
 
-By now, you might be thinking, "This sounds great, but how do I get started?" That's what we'll dive into next. Stay tuned as we delve deeper into the world of Git, exploring its functionalities and understanding its significance in the realm of software development.
+<div style="display: flex; flex-wrap: wrap;">
+
+<a href="./intro" class="lesson-card">
+    <h2>Introduction</h2>
+    <p>Start your journey with Git and GitHub, understanding their significance and uses.</p>
+</a>
+
+<a href="./working-with-repos" class="lesson-card">
+    <h2>Working with Repositories</h2>
+    <p>Learn how to create, clone, and manage Git repositories.</p>
+</a>
+
+<a href="./managing-files" class="lesson-card">
+    <h2>Managing Files</h2>
+    <p>Discover how to add, delete, and move files within a Git repository.</p>
+</a>
+
+<a href="./commit-history" class="lesson-card">
+    <h2>Commit History</h2>
+    <p>Understand how to view and navigate your Git commit history.</p>
+</a>
+
+<a href="./branching-and-merging" class="lesson-card">
+    <h2>Branching and Merging</h2>
+    <p>Master the Git concepts of branching and merging code.</p>
+</a>
+
+<a href="./git-workflow" class="lesson-card">
+    <h2>Git Workflow</h2>
+    <p>Explore different Git workflows and when to use them.</p>
+</a>
+
+<a href="./github" class="lesson-card">
+    <h2>GitHub</h2>
+    <p>Get to know GitHub and how it enhances Git’s capabilities.</p>
+</a>
+
+<a href="./collab-on-github" class="lesson-card">
+    <h2>Collaborating on GitHub</h2>
+    <p>Learn best practices for collaborating on projects using GitHub.</p>
+</a>
+
+</div>
+
+## Getting Started
+
+To make the most of this course, it's recommended to actively engage and practice using Git and GitHub. Dive in and start version-controlling your projects effectively!

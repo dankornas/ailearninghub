@@ -59,7 +59,7 @@ hide:
     </p>
   </div>
   <div class="image">
-    <img src="/assets/images/me.jpg" alt="Your Image">
+    <img src="/ailearninghub/assets/images/me.jpg" alt="Your Image">
   </div>
 </div>
 

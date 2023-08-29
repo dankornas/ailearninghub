@@ -12,12 +12,13 @@ Welcome to our Deep Learning Course! This comprehensive course aims to equip you
 ## Course Overview
 
 <style>
+/* Existing Styles */
 .lesson-card {
     display: block;
     border: 1px solid #333;
     padding: 20px;
     margin: 5px;
-    width: calc(33% - 10px); 
+    width: calc(33% - 10px);
     background-color: #0f1624;
     color: white;
     transition: transform .2s; 
@@ -30,6 +31,13 @@ Welcome to our Deep Learning Course! This comprehensive course aims to equip you
 
 .lesson-card h2, .lesson-card p {
     color: white;
+}
+
+/* New Media Query */
+@media screen and (max-width: 768px) {
+    .lesson-card {
+        width: 100%;
+    }
 }
 </style>
 

@@ -9,7 +9,7 @@ hide:
 # Learning Resources
 
 <div class="grid-container">
-  <a href="/resources/courses/" class="card">
+  <a href="./courses/" class="card">
     <div class="card-content">
       <i class="fa-solid fa-book fa-5x"></i>
       <h3>Courses</h3>

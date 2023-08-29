@@ -1,5 +1,5 @@
 ---
-title: Introduction
+title: "Bash Scripting: Introduction"
 hide:
   - path
   - navigation

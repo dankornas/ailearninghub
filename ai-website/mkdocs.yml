@@ -1,8 +1,10 @@
 site_name: AI Learning Hub
+site_url: https://dankornas.github.io/ailearninghub
+site_description: Unleash your potential with AI - Your ultimate resource for learning everything about AI.
 
 theme:
   name: material
-  logo: code.png
+  logo: ./assets/images/code.png
   favicon: code.png
   palette:
 
@@ -42,10 +44,10 @@ theme:
 
 extra_css:
   - https://use.fontawesome.com/releases/v6.0.0-beta2/css/all.css
-  - css/custom.css
+  - ./css/custom.css
 
 markdown_extensions:
-  - fontawesome_markdown
+  # - fontawesome_markdown
   - attr_list
   - md_in_html
   - pymdownx.highlight:
@@ -75,25 +77,28 @@ extra:
     - icon: fontawesome/brands/linkedin 
       link: https://www.linkedin.com/in/daniel-kornas/
 
-  consent:
-    title: Cookie consent
-    description: >- 
-      We use cookies to recognize your repeated visits and preferences, as well
-      as to measure the effectiveness of our documentation and whether users
-      find what they're searching for. With your consent, you're helping us to
-      make our documentation better.
-    actions:
-      - accept
-      - manage
+  # consent:
+  #   title: Cookie consent
+  #   description: >- 
+  #     We use cookies to recognize your repeated visits and preferences, as well
+  #     as to measure the effectiveness of our documentation and whether users
+  #     find what they're searching for. With your consent, you're helping us to
+  #     make our documentation better.
+  #   actions:
+  #     - accept
+  #     - manage
 
 plugins:
+  - redirects
   - search:
       lang: en
-  - meta-descriptions
+  # - meta-descriptions
   - awesome-pages
   - social:
+      # cards_layout: default/variant
       cards_layout_options:
         background_color: "#0F1624"
+        font_family: Roboto
   - tags
   - pagenav-generator
 

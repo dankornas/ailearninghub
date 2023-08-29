@@ -1,3 +1,9 @@
+---
+title: "Day 1: 365 Days of Machine Learning Journey"
+description: "Kickstart your Machine Learning journey with Day 1 of our 365-day challenge! Covering Python, SQL, data visualization, statistics, and more. Ideal for beginners and those preparing for interviews."
+author: Dan Kornas
+---
+
 # Day 1: 365 Days of Machine Learning Journey
 
 <iframe width="560" height="355" src="https://www.youtube.com/embed/LlqdhJSDujg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

@@ -12,6 +12,7 @@ Welcome to our Machine Learning Course! This comprehensive course aims to cover 
 ## Course Overview
 
 <style>
+/* Existing Styles */
 .lesson-card {
     display: block;
     border: 1px solid #333;
@@ -30,6 +31,13 @@ Welcome to our Machine Learning Course! This comprehensive course aims to cover 
 
 .lesson-card h2, .lesson-card p {
     color: white;
+}
+
+/* New Media Query */
+@media screen and (max-width: 768px) {
+    .lesson-card {
+        width: 100%;
+    }
 }
 </style>
 
