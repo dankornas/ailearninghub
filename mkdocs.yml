@@ -1,0 +1,153 @@
+site_name: AI Learning Hub
+site_url: https://ailearninghub.io
+site_description: An open-source platform for mastering AI, machine learning, and Python with community-driven tutorials and projects.
+repo_url: https://github.com/dankornas/ailearninghub
+repo_name: dankornas/ailearninghub  
+copyright: "Created by Dan Kornas"
+
+theme:
+  name: material
+  custom_dir: overrides
+  icon:
+      logo: logo
+      repo: fontawesome/brands/github
+  # Custom font configuration
+  font:
+    text: Inter         # Google Font for body text
+
+  # Logo and favicon settings
+  logo: assets/logo.png   # Replace with your logo path
+  favicon: assets/logo.png
+
+  # For proper search functionality
+  # include_search_page: false
+  # search_index_only: true
+
+
+  # Color palette configuration for dark and light mode toggle
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+  features:
+    - navigation.tabs.sticky
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - navigation.sections
+    - navigation.indexes
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+
+# Plugins to enhance your site
+plugins:
+  - search                # Built-in search functionality
+  - mkdocs-jupyter:
+      show_input: true
+      ignore_h1_titles: True
+      theme: light
+ 
+
+# Markdown extensions for enhanced features
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:       # Emoji support
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:   # Syntax highlighting for code
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.superfences   # Supports multiple types of code blocks
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+
+# Footer configuration with social media icons and copyright
+extra:
+  page_bottom_text: "This is the additional text that will appear at the bottom of every page."
+  social:
+    - icon: fontawesome/brands/facebook
+      link: https://facebook.com/dankornas
+      name: Facebook
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/daniel-kornas
+      name: LinkedIn
+    - icon: fontawesome/brands/youtube
+      link: https://youtube.com/@dankornas
+      name: YouTube
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/dankornas
+      name: Twitter
+    - icon: fontawesome/brands/bluesky
+      link: https://bsky.app/profile/dankornas.bsky.social
+      name: Bluesky
+    - icon: fontawesome/brands/threads
+      link: https://threads.net/dankornas
+      name: Threads
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/dankornas
+      name: Instagram
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js
+
+# Navigation structure
+nav:
+  - Getting Started:
+    - AI Learning Hub: 'index.md'
+    - How to Contribute: 'how_to_contribute.md'
+    - How to Create Tutorials: 'how_to_create_tutorials.md'
+  
+  - AI Learning Roadmap:
+    - Getting Started: 'ai_learning_roadmap/getting_started.md'
+
+    - Programming: 
+      - "[Contribute]": 'ai_learning_roadmap/0_programming/contribute.md'
+      - Python:
+        - Basics: 'ai_learning_roadmap/0_programming/python/basics.ipynb'
+      
+    - Working with Data:
+      - "[Contribute]": 'ai_learning_roadmap/1_working_with_data/contribute.md'
+    
+    - Machine Learning:
+      - "[Contribute]": 'ai_learning_roadmap/2_machine_learning/contribute.md'
+    
+    - Deep Learning:
+      - "[Contribute]": 'ai_learning_roadmap/3_deep_learning/contribute.md'
+    
+    - MLOps & Model Deployment:
+      - "[Contribute]": 'ai_learning_roadmap/4_mlops_deployment/contribute.md'
+
+
+
