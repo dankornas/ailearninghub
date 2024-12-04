@@ -73,9 +73,7 @@ Here’s how you can contribute:
 
 Sign up for the AI Learning Hub Newsletter to receive the latest updates, new tutorial releases, and valuable insights on AI, directly to your inbox.
 
-<div style="text-align: center; margin: 20px 0;"> 
-  <iframe src="https://dankornas.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe> 
-</div>
+👉 **[Subscribe to the AI Learning Hub Newsletter](https://dankornas.substack.com/subscribe)**
 
 <br>
 
