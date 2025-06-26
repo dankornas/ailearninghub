@@ -1,4 +1,4 @@
-# Welcome to the Open Source AI Learning Hub
+# Welcome to the AI Learning Hub
 
 **Website:** Visit our official website for more information: [AI Learning Hub](https://ailearninghub.io)
 
@@ -39,6 +39,14 @@ Become part of a vibrant, collaborative community on Discord. Share ideas, ask q
 Sign up for the AI Learning Hub Newsletter to receive the latest updates, new tutorial releases, and valuable insights on AI, directly to your inbox.
 
 👉 **[Subscribe to the AI Learning Hub Newsletter](https://dankornas.substack.com/subscribe)**
+
+<br>
+
+## 📢 Contribute to the AI Learning Hub!
+We welcome contributors! Whether you want to add new tutorials, improve existing code, or report issues, your contributions make this community thrive. Here’s how to get involved:
+1. **Fork** the repository.
+2. Create a new branch for your contribution.
+3. Submit a **Pull Request** and describe the improvements.
 
 <br>
 
