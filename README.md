@@ -16,11 +16,11 @@ At the heart of this initiative is the **AI Learning Roadmap**—a structured gu
 
 The roadmap is organized into distinct sections:
 
-- **[Programming](https://github.com/dankornas/ailearninghub/blob/main/ai_learning_roadmap/0_programming/contribute.md)**: Covering Python and other programming languages relevant to AI.
-- **[Working with Data](https://github.com/dankornas/ailearninghub/blob/main/ai_learning_roadmap/1_working_with_data/contribute.md)**: Introducing tools like Pandas, NumPy, and data visualization libraries.
-- **[Machine Learning](https://github.com/dankornas/ailearninghub/blob/main/ai_learning_roadmap/2_machine_learning/contribute.md)**: Teaching core algorithms, evaluation metrics, and tuning techniques.
-- **[Deep Learning](https://github.com/dankornas/ailearninghub/blob/main/ai_learning_roadmap/3_deep_learning/contribute.md)**: Exploring neural networks, advanced architectures, and applications.
-- **[MLOps and Model Deployment](https://github.com/dankornas/ailearninghub/blob/main/ai_learning_roadmap/4_mlops_deployment/contribute.md)**: Bridging the gap between experimentation and production.
+- **[Programming](https://github.com/dankornas/ailearninghub/blob/main/ai_learning_roadmap/programming)**: Covering Python and other programming languages relevant to AI.
+- **[Working with Data](https://github.com/dankornas/ailearninghub/blob/main/ai_learning_roadmap/working_with_data)**: Introducing tools like Pandas, NumPy, and data visualization libraries.
+- **[Machine Learning](https://github.com/dankornas/ailearninghub/blob/main/ai_learning_roadmap/machine_learning)**: Teaching core algorithms, evaluation metrics, and tuning techniques.
+- **[Deep Learning](https://github.com/dankornas/ailearninghub/blob/main/ai_learning_roadmap/deep_learning)**: Exploring neural networks, advanced architectures, and applications.
+- **[MLOps and Model Deployment](https://github.com/dankornas/ailearninghub/blob/main/ai_learning_roadmap/mlops_deployment)**: Bridging the gap between experimentation and production.
 
 <br>
 
